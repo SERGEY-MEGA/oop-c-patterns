@@ -41,6 +41,7 @@ Factory Method
 Singleton
 Builder
 Abstract Factory
+
 🧱 Структурные паттерны (Structural)
 Adapter
 Facade
@@ -49,6 +50,7 @@ Decorator
 Composite
 Proxy
 Flyweight
+
 💬 Поведенческие паттерны (Behavioral)
 Strategy
 Observer
