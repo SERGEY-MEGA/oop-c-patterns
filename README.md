@@ -70,6 +70,25 @@ Visitor
 
 ## Как собрать и запустить
 
+# 1. Перейдите в папку, где хотите разместить проект
+cd ~/Documents  # или другую удобную папку
+
+# 2. Склонируйте репозиторий
+git clone https://github.com/SERGEY-MEGA/oop-c-patterns.git
+
+# 3. Перейдите в папку проекта
+cd oop-c-patterns
+
+# 4. Посмотрите какие файлы есть
+ls -la
+
+# 5. Скомпилируйте (если есть .c файлы)
+clang *.c -o app -Wall -Wextra -lm
+
+# 6. Запустите
+./app
+
+
 ```bash
 make clean
 clang *.c -o app -Wall -Wextra -lm
